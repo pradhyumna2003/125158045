@@ -14,14 +14,7 @@ auth_token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzI
 headers = {
     "Authorization": f"Bearer {auth_token}"
 }
-auth_json={
-    "companyName": "SASTRA",
-    "clientID": "08e0f26a-8655-40a1-ab7e-bafb84fa3bcd",
-    "clientSecret": "AEoCnDsowirkWBAN",
-    "ownerName": "Pradhyumna",
-    "ownerEmail": "125158045@sastra.ac.in",
-    "rollNo": "125158045"
-}
+
 
 
 def fetch_numbers_from_server(number_id):
